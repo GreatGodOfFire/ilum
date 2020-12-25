@@ -35,7 +35,7 @@ SECTIONS
 	array. */
 	_boot_stack = 0x20010000;
 
-	/* /DISCARD/ : {
+	/DISCARD/ : {
                 *(.ARM.exidx)
-        } */
+    }
 }

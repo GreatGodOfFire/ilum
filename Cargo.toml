@@ -4,3 +4,4 @@ members = [
     "ilum-hal",
     "ilum-panic"
 ]
+exclude = ["ilum-example"]
